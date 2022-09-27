@@ -1,17 +1,19 @@
-#  <div align="center">🚧 EM CONSTRUÇÃO 🚧</div>
-# Blog da Daya 
+##  <div align="center">🚧 EM CONSTRUÇÃO 🚧</div>
+  
+#  <div align="center">Blog da Daya</div>
+
 
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](./LICENSE)
 
 
 
-## Setup de ambiente:
+# Setup de ambiente:
 - Node LTS
 - Yarn 1.x
 
-## Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
-## Como rodar localmente?
+# Como rodar localmente?
 Clone o projeto git clone 
 Execute o comando  ```yarn install```
 Execute o comando ```yarn dev```
@@ -20,18 +22,17 @@ Pronto 🎉
 
  
 
-## Estrutura do projeto
-  `./pages`: Diretório que o Next.js usa para montar o sistema de roteamento
+# Estrutura do projeto
+  `./pages:` Diretório que o Next.js usa para montar o sistema de roteamento
 
- `./src/components`: Diretório que contem os componentes de interface.
+ `./src/components:` Diretório que contem os componentes de interface.
 
 
  <hr></hr>
 
- ## 📝 License 
+ # 📝 License 
 
 Copyright © 2022 [Mairon Vilela](https://github.com/maironvilela).<br />
 This project is [MIT](https://github.com/maykbrito/screenboard/blob/master/LICENSE) licensed.
 
-<hr></hr>
- 
+
