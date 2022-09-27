@@ -1,13 +1,15 @@
 ##  <div align="center">🚧 EM CONSTRUÇÃO 🚧</div>
   
 #  <div align="center">Blog da Daya</div>
-
-
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](./LICENSE)
 
-
-
-# Setup de ambiente:
+# Template do Projeto
+<a href="https://www.figma.com/file/vXLkg0v7ibiVOVtiyBssFZ/Blog-Dayane?node-id=1%3A3">
+ <img src="./public/assets/capa.png" width="400px"/>
+ </a>
+ 
+ 
+ # Setup de ambiente:
 - Node LTS
 - Yarn 1.x
 
@@ -15,10 +17,13 @@
 
 # Como rodar localmente?
 Clone o projeto git clone 
+
 Execute o comando  ```yarn install```
+
 Execute o comando ```yarn dev```
-Acesse a pagina principal
-Pronto 🎉
+
+Acesse a pagina http://localhost:3000
+
 
  
 
@@ -27,12 +32,7 @@ Pronto 🎉
 
  `./src/components:` Diretório que contem os componentes de interface.
 
-
- <hr></hr>
-
- # 📝 License 
+  # 📝 License 
 
 Copyright © 2022 [Mairon Vilela](https://github.com/maironvilela).<br />
 This project is [MIT](https://github.com/maykbrito/screenboard/blob/master/LICENSE) licensed.
-
-
