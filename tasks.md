@@ -2,7 +2,7 @@
 🟢  eslint
 🟢  Commitzem
 🟢  Husk
-🔴  prettier
+🟢  prettier
 🔴  lint-staged
 🔴  tailwindcss
 🔴  git-commit-msg-linter
