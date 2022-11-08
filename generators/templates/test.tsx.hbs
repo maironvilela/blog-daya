@@ -1,0 +1,9 @@
+import { render, screen } from '@testing-library/react';
+import { {{pascalCase name}} } from '.';
+
+describe('<{{pascalCase name}}>', () => {
+  it('should be able render the default input label with correct color ', () => {
+    render(<{{pascalCase name}} />);
+    expect(screen.getByText('{{pascalCase name}}')).toBeInTheDocument();
+  });
+});
