@@ -3,9 +3,8 @@
 🟢  Commitzem
 🟢  Husk
 🟢  prettier
-🔴  lint-staged
-🔴  tailwindcss
-🔴  git-commit-msg-linter
+🟢  lint-staged
 🔴  storybook
-🔴  React-use
 🔴  Jest
+🔴  tailwindcss
+🔴  React-use
