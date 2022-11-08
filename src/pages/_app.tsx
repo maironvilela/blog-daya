@@ -1,5 +1,6 @@
 
 function MyApp({ Component, pageProps }) {
+  const test = "";
   return <Component {...pageProps} />
 }
 

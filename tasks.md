@@ -1,7 +1,7 @@
 # SETUP
-🔴  eslint
-🔴  Commitzem
-🔴  Husk
+🟢  eslint
+🟢  Commitzem
+🟢  Husk
 🔴  prettier
 🔴  lint-staged
 🔴  tailwindcss
