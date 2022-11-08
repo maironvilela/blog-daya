@@ -1,0 +1,11 @@
+# SETUP
+🔴  eslint
+🔴  Commitzem
+🔴  Husk
+🔴  prettier
+🔴  lint-staged
+🔴  tailwindcss
+🔴  git-commit-msg-linter
+🔴  storybook
+🔴  React-use
+🔴  Jest
