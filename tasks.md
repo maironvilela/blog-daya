@@ -4,7 +4,7 @@
 🟢  Husk
 🟢  prettier
 🟢  lint-staged
-🔴  storybook
+🟢  storybook
 🔴  Jest
 🔴  tailwindcss
 🔴  React-use
