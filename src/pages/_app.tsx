@@ -1,7 +1,6 @@
 
 function MyApp({ Component, pageProps }) {
-  const test = "";
-  return <Component {...pageProps} />
+   return <Component {...pageProps} />
 }
 
 export default MyApp
