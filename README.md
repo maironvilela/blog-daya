@@ -12,8 +12,24 @@
  # Setup de ambiente:
 - Node LTS
 - Yarn 1.x
+- Next 12.x
 
 # Tecnologias Utilizadas
+> eslint
+
+>  Commitzem
+
+>  Husk
+
+>  prettier
+
+>  lint-staged
+
+>  storybook
+
+>  Jest
+
+>  tailwindcss
 
 # Como rodar localmente?
 Clone o projeto git clone 
@@ -28,9 +44,16 @@ Acesse a pagina http://localhost:3000
  
 
 # Estrutura do projeto
-  `./pages:` Diretório que o Next.js usa para montar o sistema de roteamento
+  `/src/pages:` Diretório que o Next.js usa para montar o sistema de roteamento
 
- `./src/components:` Diretório que contem os componentes de interface.
+ `/src/components:` Diretório que contem os componentes de interface.
+
+ `/.husky: ` Scripts utilizado pela ferramenta Husky para executar automaticamente em determinadas fases do commit
+
+ `/.storybook: `  Arquivos de configurações do Storybook
+
+ `/.generators: ` Configurações da biblioteca plop 
+ `/.generators/templates: ` Templates utilizado pela ferramenta plop para a geração dos arquivos
 
   # 📝 License 
 
