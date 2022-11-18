@@ -1,5 +1,20 @@
 import { themes } from '@storybook/theming';
+import * as NextImage from "next/image";
 import '../src/styles/global.css';
+
+
+const OriginalNextImage = NextImage.default;
+
+Object.defineProperty(NextImage, "default", {
+  configurable: true,
+  value: (props) => (
+    <OriginalNextImage
+      {...props}
+      unoptimized
+    />
+  ),
+});
+
 
 
 export const parameters = {

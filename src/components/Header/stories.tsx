@@ -1,4 +1,4 @@
-import { Meta, Story } from '@storybook/react';
+import { Meta } from '@storybook/react';
 import { Header } from '.';
 
 export default {
@@ -6,4 +6,7 @@ export default {
   component: Header
 } as Meta;
 
-export const Basic: Story = () => <Header />;
+const Template = (args) => <Header {...args} />;
+
+export const KitchenSink = Template.bind({});
+KitchenSink.args = {};

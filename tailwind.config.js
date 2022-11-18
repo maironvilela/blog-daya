@@ -3,6 +3,7 @@ module.exports = {
   content: ['./src/**/*.tsx'],
   theme: {
     screens: {
+      xs: '320px',
       sm: '640px',
       md: '768px',
       lg: '1024px',
@@ -11,22 +12,35 @@ module.exports = {
     },
     fontSize: {
       xs: 14,
-      sn: 16,
+      sm: 16,
       md: 18,
       lg: 20,
       xl: 24,
-      '2xl': 32
+      '2xl': 32,
+      '3xl': 36
     },
     colors: {
-      white: '#FFF',
+      white: {
+        100: '#FFFF',
+        200: '#F7F8FA'
+      },
       gray: {
-        100: '#f7fafc',
-        900: '#1a202c'
+        300: '#CEC2C2',
+        400: '#8D8D99',
+        800: '#494D4B'
+      },
+      blue: {
+        700: '#1E2522'
+      },
+      green: {
+        700: '#0A9B10'
       }
     },
     extend: {
       fontFamily: {
-        sans: 'Inter, sans-serif'
+        poppins: 'Poppins, sans-serif',
+        msMadi: 'Ms Madi, cursive',
+        greatVibes: 'Great Vibes, cursive'
       }
     }
   },
