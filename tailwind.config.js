@@ -17,7 +17,7 @@ module.exports = {
       lg: 20,
       xl: 24,
       '2xl': 32,
-      '3xl': 36
+      '3xl': 40
     },
     colors: {
       white: {
@@ -41,6 +41,9 @@ module.exports = {
         poppins: 'Poppins, sans-serif',
         msMadi: 'Ms Madi, cursive',
         greatVibes: 'Great Vibes, cursive'
+      },
+      backgroundImage: {
+        header: "url('/assets/images/header-xs.svg')"
       }
     }
   },
