@@ -25,6 +25,7 @@ module.exports = {
         200: '#F7F8FA'
       },
       gray: {
+        100: '#F4E9E9',
         300: '#CEC2C2',
         400: '#8D8D99',
         800: '#494D4B'
@@ -34,7 +35,8 @@ module.exports = {
       },
       green: {
         700: '#0A9B10'
-      }
+      },
+      transparent: 'transparent'
     },
     extend: {
       fontFamily: {
