@@ -7,5 +7,10 @@ export type SearchProps = {
 };
 
 export function Search({ placeholder, children }: SearchProps) {
-  return <InputText placeholder={placeholder}>{children}</InputText>;
+  return (
+    <InputText.Root>
+      <InputText.Input placeholder={placeholder} />
+      <InputText.Icon>{children}</InputText.Icon>
+    </InputText.Root>
+  );
 }

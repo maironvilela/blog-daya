@@ -39,7 +39,8 @@
         "@typescript-eslint/explicit-module-boundary-types": "off",
         "prettier/prettier": "error",
         "arrow-body-style": "off",
-        "prefer-arrow-callback": "off"
+        "prefer-arrow-callback": "off",
+        "react/jsx-key": "off"
 
     }
 }

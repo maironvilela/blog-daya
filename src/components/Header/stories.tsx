@@ -8,5 +8,5 @@ export default {
 
 const Template = (args) => <Header {...args} />;
 
-export const KitchenSink = Template.bind({});
-KitchenSink.args = {};
+export const Default = Template.bind({});
+Default.args = {};

@@ -1,10 +1,13 @@
 import { Meta, StoryObj } from '@storybook/react';
 import { MagnifyingGlass } from 'phosphor-react';
-import { InputText, InputTextInputProps } from '.';
+import { InputText, InputTextRootProps } from '.';
 
 export default {
   title: 'component/InputText',
-  component: InputText,
+  component: InputText.Root,
+  args: {
+    children: <InputText.Input placeholder="Pesquisar" />
+  },
   argTypes: {
     children: {
       table: {
@@ -12,16 +15,16 @@ export default {
       }
     }
   }
-} as Meta;
+} as Meta<InputTextRootProps>;
 
-export const Default: StoryObj<InputTextInputProps> = {
+export const Default: StoryObj<InputTextRootProps> = {};
+export const withoutIcon: StoryObj<InputTextRootProps> = {
   args: {
-    placeholder: 'Pesquisar'
-  }
-};
-export const withoutIcon: StoryObj<InputTextInputProps> = {
-  args: {
-    placeholder: 'Pesquisar',
-    children: <MagnifyingGlass color="#CEC2C2" size={24} />
+    children: [
+      <InputText.Input placeholder="Pesquisar Posts" />,
+      <InputText.Icon>
+        <MagnifyingGlass />
+      </InputText.Icon>
+    ]
   }
 };

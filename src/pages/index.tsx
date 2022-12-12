@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <Header />
       <Search placeholder="Pesquisar">
-        <MagnifyingGlass color="#CEC2C2" size={24} />
+        <MagnifyingGlass />
       </Search>
     </div>
   );
